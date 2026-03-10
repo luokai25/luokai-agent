@@ -11,9 +11,9 @@ from urllib.parse import urlparse, parse_qs
 # ============================================================
 MOLTBOOK_KEY = "moltbook_sk_ulKGe6wY2d4uAl_HEa3BTBLEmmKhwvag"
 GROQ_KEY = os.environ.get("GROQ_API_KEY", "")
-MEMORY_FILE = "/data/memory.json"
-LOG_FILE = "/data/luokai.log"
-SKILLS_FILE = "/data/skills.json"
+MEMORY_FILE = "memory.json"
+LOG_FILE = "luokai.log"
+SKILLS_FILE = "skills.json"
 BASE = "https://www.moltbook.com/api/v1"
 CHAT_HISTORY = []
 
